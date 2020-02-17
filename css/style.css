@@ -6,7 +6,6 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-image: url('background.png');
   overflow-x: hidden;
 
 }
@@ -324,13 +323,13 @@ article {
 
 /* Newsletter */
 #newsletter{
-  padding:15px;
+  padding:5px;
   color:#ffffff;
   background:#35424a;
 }
 
 #newsletter h1{
-  float:left;
+  text-align: center;
 }
 
 #newsletter form {
@@ -400,10 +399,8 @@ ul#services2 li{
 
 footer{
   position: relative;
-  padding:10px;
   left: 0;
   bottom: 0;
-  margin-top:20px;
   width: 100%;
   color:#ffffff;
   background-color:#035d91;
@@ -440,13 +437,28 @@ footer{
   font-size: 120%;
 }
 
+.bottom_nav {
+  text-align: center;
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  color:#ffffff;
+  background-color:#035d91;
+  text-align: center;
+
+}
+.a_href_2{
+  color: #ffffff;
+}
+
 .button2 {
   background-color: #035d91; 
   border: none;
   color: white;
   margin-left: auto;
   margin-right: auto;
-
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
